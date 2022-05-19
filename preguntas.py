@@ -96,7 +96,7 @@ def pregunta_02():
 
     # Divida los datos de entrenamiento y prueba. La semilla del generador de números
     # aleatorios es 123. Use 50 patrones para la muestra de prueba.
-    (X_train, X_test, y_train, y_test,) = tarin_test_split(
+    (X_train, X_test, y_train, y_test,) = train_test_split(
         X,
         y,
         test_size=50,
